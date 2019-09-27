@@ -109,6 +109,10 @@ transcoding:
     2160:
       __name: "PEERTUBE_TRANSCODING_2160P"
       __format: "json"
+  HLS:
+    enabled:
+      __name: "PEERTUBE_HLS_ENABLED"
+      __format: "json"
 
 instance:
   name: "PEERTUBE_INSTANCE_NAME"
